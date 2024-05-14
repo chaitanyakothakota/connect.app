@@ -440,7 +440,7 @@ ul.nav > li > a.active{
 }
 .slicknav_btn{
     background-color: transparent;
-    margin: -53px 5px 19px;
+    margin: -12.5% 2% 5%;
 }
 .slicknav_nav .slicknav_row:hover,
 .slicknav_nav .slicknav_row, 
@@ -495,8 +495,8 @@ ul.nav > li > a.active{
     position: absolute;
     width: 100%;
     height: 100%;
-    right: -65px;
-    top: -160px;
+    right: -10%;
+    top: -20%;
     z-index: -1; 
 }
 .hero-content h1{
@@ -513,7 +513,7 @@ ul.nav > li > a.active{
     position: relative;
 }
 .hero-moc{
-    background-image: url(../img/hero-mockup.png);
+    background-image: url(../img/hero-mockup-app.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     content: "";
@@ -938,14 +938,14 @@ ul.nav > li > a.active{
     z-index: 1;
 }
 .download-mockup{
-    background-image: url(../img/download%20mockup.png);
+    background-image: url(../img/download-mockup-interface.png);
     background-repeat: no-repeat;
     background-position: right top;
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    right: 10px;
+    right: -2.5%;
     top: 0;
     z-index: -1;
 }
@@ -1093,6 +1093,11 @@ ul.nav > li > a.active{
     cursor: pointer;
     color: #e035a0;
 }
+.subscribe-form .submit:focus {
+    cursor: pointer;
+    border: 2px solid #e035a0;
+    border-radius: 25px;
+}
 #subscribe-result{
     display: none;
     margin-top: 15px;
@@ -1140,7 +1145,28 @@ ul.nav > li > a.active{
     color: #555;
     font-size: 14px;
     margin: 0;
-}  
+}
+.footer-section p a {
+    color: #482045;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer-links p {
+    margin: 0 10px;
+}
+.footer-links p a {
+    font-size: 12px;
+    font-weight: 100;
+    color: #333;
+    text-decoration: none;
+}
+
 
 /* ==========================================================================
    Scroll To Top
@@ -1163,4 +1189,38 @@ ul.nav > li > a.active{
 #scroll-to-top:hover{
     background-color: #0bbf6c;
     color: #fff;
+}
+
+
+/* ==========================================================================
+   Privacy-Policy
+   ========================================================================== */
+.privacy-policy ul.nav > li > a {
+    color: #000;
+}
+.navbar-fixed-top ul.nav > li > a {
+    color: #fff !important;
+}
+.privacy-policy-section{
+    margin: 10% 0%;
+    background-color: #fff;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.privacy-policy-content h1{
+    margin-bottom: 20px;
+}
+.privacy-policy-content p{
+    line-height: 1.5;
+    margin: 0 0 25px;
+}
+.privacy-policy-content .download-btn:hover{
+    opacity: 0.8;
+}
+.privacy-policy-inner{
+    position: relative;
 }
