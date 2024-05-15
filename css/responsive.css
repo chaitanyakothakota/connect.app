@@ -73,7 +73,20 @@
         padding: 0;
     }
     .hero-section{
-        height: 570px;
+        max-height: 100%;
+        min-height: 750px;
+    }
+    .hero-btn{
+        display: flex;
+    }
+    .hero-btn a{
+        width: 100%;
+    }
+    ul.nav{
+        margin: 0% -7.5%;
+    }
+    .privacy-policy-section{
+        margin: 20% 0% 10%;
     }
 
 }
@@ -131,7 +144,14 @@
         display:block;
     }
     .hero-inner{
-        padding-top: 50px;
+        padding-top: 100%;
+    }
+    .hero-moc{
+        bottom: 0%;
+        right: 10%;
+    }
+    .hero-content{
+        padding-bottom: 0%;
     }
     .hero-section:before{
         right: 0%;
@@ -146,6 +166,9 @@
     .download-content{
         text-align: center;
     }
+    .privacy-policy-section{
+        margin: 25% 0% 15%;
+    }
     
 }
 /* ---- End of max-width 767px CSS ---- */
@@ -154,7 +177,18 @@
 /* ---- Start of max-width 520px CSS ---- */
 @media all and (max-width: 520px) {
     .hero-section{
-        height: 460px;
+        height: 950px;
+    }
+    .hero-moc{
+        bottom: 5%;
+        right: 10%;
+    }
+    .hero-inner{
+        padding-top: 100%;
+    }
+    .hero-content{
+        position: absolute;
+        padding-bottom: 0%;
     }
     .hero-content p{ font-size: 16px; }
     .subscribe-form{ width: 100%; }
@@ -164,6 +198,9 @@
     .download-content p{ margin-bottom: 25px; }
     .download-btn a:first-child{
         margin-bottom: 10px;
+    }
+    .privacy-policy-section{
+        margin: 35% 0% 20%;
     }
 }
 /* ---- End of max-width 520px CSS ---- */

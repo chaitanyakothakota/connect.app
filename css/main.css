@@ -289,7 +289,18 @@ body.loaded #preloader{
     margin-right: 15px;
     margin-bottom: 15px;
 }
-
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #000;
+    display: block;
+    width: 1em;
+    height: .15em;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.25);
+    box-shadow: 0 1px 0 rgba(0,0,0,.25)
+}
 
 /* Section Heading */
 .section-heading h2{
@@ -440,7 +451,7 @@ ul.nav > li > a.active{
 }
 .slicknav_btn{
     background-color: transparent;
-    margin: -12.5% 2% 5%;
+    margin: -12.5% 2.5% 5%;
 }
 .slicknav_nav .slicknav_row:hover,
 .slicknav_nav .slicknav_row, 
@@ -749,7 +760,7 @@ ul.nav > li > a.active{
 	line-height: 40px;
 	font-size: 35px;
 	position: absolute;
-	left: -40px;
+	left: 0%;
 	top: calc(50% - 20px);
     text-align: left;
     opacity: 0.8;
@@ -757,7 +768,7 @@ ul.nav > li > a.active{
 }
 .owl-nav div.owl-next{
     left: auto;
-	right: -40px;
+	right: 0%;
     text-align: right;
 }
 .owl-nav div:hover{
@@ -1172,18 +1183,19 @@ ul.nav > li > a.active{
    Scroll To Top
    ========================================================================== */
 #scroll-to-top{
-    background-color: #e035a0;
+    background-color: #fff;
     display: none;
     width: 45px;
     height: 45px;
     text-align: center;
     font-size: 14px;
+    border: 2px solid #e035a0;
     border-radius: 50%;
     line-height: 45px;
-    color: #fff;
+    color: #000;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 5%;
+    right: 2.5%;
     z-index: 999;
 }
 #scroll-to-top:hover{
@@ -1202,7 +1214,7 @@ ul.nav > li > a.active{
     color: #fff !important;
 }
 .privacy-policy-section{
-    margin: 10% 0%;
+    margin: 10% 0% 5%;
     background-color: #fff;
     height: 700px;
     display: flex;
